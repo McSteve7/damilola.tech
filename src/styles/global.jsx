@@ -24,6 +24,13 @@ const GlobalStyle = createGlobalStyle`
     color: #e07628;
     text-decoration: none;
   }
+  button{
+    font-size: 30px;
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color: black;
+  }
 `
 
 export default GlobalStyle

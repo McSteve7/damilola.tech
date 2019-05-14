@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
+import aber from '../images/aber.png'
 
 const Wrapper = styled.a`
   width: 100%;

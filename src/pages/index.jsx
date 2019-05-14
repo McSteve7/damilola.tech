@@ -4,6 +4,7 @@ import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 
 // Components
+import { library } from '@fortawesome/fontawesome-svg-core'
 import Layout from '../components/Layout'
 import ProjectCard from '../components/ProjectCard'
 
@@ -18,6 +19,13 @@ import About from '../views/About'
 import Contact from '../views/Contact'
 
 import avatar from '../images/avatar.jpg'
+import aber from '../images/aber.png'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCoffee, faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faStroopwafel, faCoffee)
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -63,73 +71,92 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Yo, <br /> I'm Damilola Ajiboye.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm a Front-end web developer.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
+            title="myCountry App "
             link="https://www.behance.net/gallery/58937147/Freiheit"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            A NextJS App built for checking relevant infomation about any country in the world. The app utilizes the
+            RestCountries API that serves the App with infomations. It can be used by anyone.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
+            title="Weather App"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            This App is built on ReactJs. It provides users with basic weather information of a place. The
+            OpenWeatherApp API was used to serve the app with the inormations.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
+            title="Defax"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            A corporate sample website for Defax Consulting built on WordPress CMS. Elementor Page Builder was used to
+            modify and style the website layout while using other relevant plugins also.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
+            title="BitzPrice"
             link="https://www.behance.net/gallery/38068151/Eagle"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            This App converts current bitoin rates to different currencies. Built with NextJS. The app is still pretty
+            much a work in progress and more currency options will be optimized into it.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About</Title>
+        <Title>About me? I'm gratified!</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Damilola Ajiboye" />
           <AboutSub>
             The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
             Emoji into my speech to better express myself. Winky face.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          I'm a not too terrible junior web developer with few months experience (non professional) most of these time
+          involved me playing with HTML, CSS, and a little JavaScript. I started learning about JavaScript frameworks
+          since it was quite a challenge for me to build stuffs with pure JavaScript. Shoutout to{' '}
+          <a href="https://freecodecamp.com">FreeCodeCamp</a> for making sense out of it for me and pointing towards
+          building real life apps with the technonology through their relevant coding challenge. I'm currently learning
+          and playing around with ReactJS, NextJS, GatsbyJS and SASS just to name a few. When i'm not playing around
+          with code, you can find me volunteering for a project or doing fashion brand consultation or probably
+          listening to Hillsong (Yeah, I know they are awesome too).
+        </AboutDesc>
+        <AboutDesc>
+          Download or view my resume{' '}
+          <button>
+            <a target="_blank" href="https://drive.google.com/open?id=1ES7AUhDC-2olrjwEmVW5YPZvb3COmZhv">
+              Here
+            </a>
+          </button>
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:stephenajiboye7@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/McSteve7">
+            <FontAwesomeIcon icon="faStroopwafel" />
+            </a>{' '}
+            & <a href="https://www.instagram.com/styleblogazine">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 by Damilola Ajiboye{' '}
+          <br />
+          <a href="https://github.com/McSteve7">Github</a> <a href="https://twitter.com/steve_dammy">Twitter</a>{' '}
+          <a href="https://instagram.com/styleblogazine">Instagram</a>{' '}
+          <a href="https://medium.com/damilola-ajiboye">Medium</a>
         </Footer>
       </Contact>
     </Parallax>
