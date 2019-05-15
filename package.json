@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
+  "name": "Damilola Ajiboye",
+  "description": "A portfolio website for Damilola Ajiboye",
   "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "Damilola Ajiboye",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
@@ -59,11 +59,11 @@
     "prettier": "^1.17.0"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/McSteve7/gatsby-portfolio-site",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
+    "url": "https://github.com/McSteve7/gatsby-portfolio-site/issues"
   },
-  "homepage": "https://cara.lekoarts.de"
+  "homepage": "www.damilola.tech"
 }
