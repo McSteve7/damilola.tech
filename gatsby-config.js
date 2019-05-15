@@ -1,6 +1,6 @@
 const config = require('./config/website')
 
-const pathPrefix = config.pathPrefix === '/gatsby-portfolio-site' ? '' : config.pathPrefix
+const pathPrefix = config.pathPrefix === '/McSteve7' ? '' : config.pathPrefix
 
 module.exports = {
   /* General Information */
