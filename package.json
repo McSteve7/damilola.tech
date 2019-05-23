@@ -1,5 +1,5 @@
 {
-  "name": "Damilola Ajiboye",
+  "name": "gatsby",
   "description": "A portfolio website for Damilola Ajiboye",
   "version": "3.0.0",
   "author": "Damilola Ajiboye",
@@ -68,5 +68,5 @@
   "bugs": {
     "url": "https://github.com/McSteve7/gatsby-portfolio-site/issues"
   },
-  "homepage": "https://github.com/McSteve7/gatsby-porfolio-site/index.jsx"
+  "homepage": "https://github.com/McSteve7/gatsby-porfolio-site/pages/index.jsx"
 }
