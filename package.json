@@ -62,11 +62,11 @@
     "prettier": "^1.17.0"
   },
   "repository": {
-    "url": "https://github.com/McSteve7/gatsby-portfolio-site.git",
+    "url": "https://github.com/McSteve7/damilola.tech.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/McSteve7/gatsby-portfolio-site/issues"
+    "url": "https://github.com/McSteve7/damilola.tech/issues"
   },
-  "homepage": "https://github.com/McSteve7/gatsby-porfolio-site/pages/index.jsx"
+  "homepage": "https://github.com/McSteve7/damilola.tech/pages/index.jsx"
 }
