@@ -80,7 +80,7 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Weather App "
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            link="https://awesome-leakey-8fafb1.netlify.com/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             This App is built on ReactJs. It provides users with basic weather information of a place. The
@@ -88,7 +88,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="myCountry App"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            link="#"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             A NextJS App built for checking relevant infomation about any country in the world. The app utilizes the
@@ -96,7 +96,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Defax"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            link="#"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             A corporate sample website for Defax Consulting built on WordPress CMS. Elementor Page Builder was used to
@@ -104,7 +104,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="BitzPrice"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            link="#"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             This App converts current bitoin rates to different currencies. Built with NextJS. The app is still pretty
@@ -129,7 +129,7 @@ const Index = () => (
           building real life apps with the technonology through their relevant coding challenge. I'm currently learning
           and playing around with ReactJS, NextJS, GatsbyJS and SASS just to name a few. When i'm not playing around
           with code, you can find me volunteering for a project or doing fashion brand consultation or probably
-          listening to Hillsong (Yeah, I know npthey are awesome too).
+          listening to Hillsong (Yeah, I know they are awesome too).
         </AboutDesc>
         <AboutDesc>
           Download or view my resume{' '}
