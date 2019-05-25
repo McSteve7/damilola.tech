@@ -79,20 +79,20 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="myCountry App "
+            title="Weather App "
             link="https://www.behance.net/gallery/58937147/Freiheit"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            A NextJS App built for checking relevant infomation about any country in the world. The app utilizes the
-            RestCountries API that serves the App with infomations. It can be used by anyone.
+            This App is built on ReactJs. It provides users with basic weather information of a place. The
+            OpenWeatherApp API was used to serve the app with the inormations.
           </ProjectCard>
           <ProjectCard
-            title="Weather App"
+            title="myCountry App"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            This App is built on ReactJs. It provides users with basic weather information of a place. The
-            OpenWeatherApp API was used to serve the app with the inormations.
+            A NextJS App built for checking relevant infomation about any country in the world. The app utilizes the
+            RestCountries API that serves the App with infomations. It can be used by anyone.
           </ProjectCard>
           <ProjectCard
             title="Defax"
@@ -146,14 +146,13 @@ const Index = () => (
           <ContactText>
             Send me a <a href="mailto:stephenajiboye7@gmail.com">Mail</a> or find me on other platforms:{' '}
             <a href="https://github.com/McSteve7">
-            <FontAwesomeIcon icon="faStroopwafel" />
+              <FontAwesomeIcon icon="faStroopwafel" />
             </a>{' '}
             & <a href="https://www.instagram.com/styleblogazine">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Damilola Ajiboye{' '}
-          <br />
+          &copy; 2019 by Damilola Ajiboye <br />
           <a href="https://github.com/McSteve7">Github</a> <a href="https://twitter.com/steve_dammy">Twitter</a>{' '}
           <a href="https://instagram.com/styleblogazine">Instagram</a>{' '}
           <a href="https://medium.com/damilola-ajiboye">Medium</a>
