@@ -80,7 +80,7 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Weather App "
-            link="https://awesome-leakey-8fafb1.netlify.com/"
+            link="https:/weather-apps.netlify.com/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             This App is built on ReactJs. It provides users with basic weather information of a place. The
@@ -102,7 +102,6 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="BitzPrice"
-            link=""
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             This App converts current bitoin rates to different currencies. Built with NextJS. The app is still pretty
