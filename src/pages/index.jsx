@@ -149,7 +149,7 @@ const Index = () => (
         <Footer>
           &copy; 2019 by Damilola Ajiboye <br />
           <a href="https://github.com/McSteve7">Github</a> <a href="https://twitter.com/steve_dammy">Twitter</a>{' '}
-          <a href="https://linkedin.com.com/in/damilola-ajiboye">Linkedin</a>{' '}
+          <a href="https://linkedin.com/in/damilola-ajiboye">Linkedin</a>{' '}
           <a href="https://instagram.com/styleblogazine">Instagram</a>{' '}
           <a href="https://medium.com/damilola-ajiboye">Medium</a>
         </Footer>
