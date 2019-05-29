@@ -50,7 +50,7 @@ const Avatar = styled.img`
 `
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-1xl lg:text-2xl xl:text-4xl`};
 `
 
 const AboutDesc = styled.p`
@@ -100,7 +100,6 @@ const Index = () => (
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
-      <br /> <br /> <br />
       <About offset={3}>
         <Title>About me? I'm gratified!</Title>
         <AboutHero>
