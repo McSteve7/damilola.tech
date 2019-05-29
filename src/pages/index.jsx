@@ -88,7 +88,6 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="myCountry App"
-            link="#"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             A NextJS App built for checking relevant infomation about any country in the world. The app utilizes the
@@ -96,7 +95,6 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Defax"
-            link="#"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             A corporate sample website for Defax Consulting built on WordPress CMS. Elementor Page Builder was used to
@@ -104,7 +102,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="BitzPrice"
-            link="#"
+            link=""
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             This App converts current bitoin rates to different currencies. Built with NextJS. The app is still pretty
@@ -144,16 +142,14 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Send me a <a href="mailto:stephenajiboye7@gmail.com">Mail</a> or find me on other platforms:{' '}
-            <a href="https://github.com/McSteve7">
-              <FontAwesomeIcon icon="faStroopwafel" />
-            </a>{' '}
-            & <a href="https://www.instagram.com/styleblogazine">Instagram</a>
+            Send me a <a href="mailto:stephenajiboye7@gmail.com">Mail</a> and let's discuss about that your upcoming
+            project that you would like me to work on.
           </ContactText>
         </Inner>
         <Footer>
           &copy; 2019 by Damilola Ajiboye <br />
           <a href="https://github.com/McSteve7">Github</a> <a href="https://twitter.com/steve_dammy">Twitter</a>{' '}
+          <a href="https://linkedin.com.com/in/damilola-ajiboye">Linkedin</a>{' '}
           <a href="https://instagram.com/styleblogazine">Instagram</a>{' '}
           <a href="https://medium.com/damilola-ajiboye">Medium</a>
         </Footer>
