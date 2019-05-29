@@ -81,34 +81,26 @@ const Index = () => (
           <ProjectCard
             title="Weather App "
             link="https:/weather-apps.netlify.com/"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to down, #D4145A 0%, #FBB03B 100%)"
           >
             This App is built on ReactJs. It provides users with basic weather information of a place. The
             OpenWeatherApp API was used to serve the app with the inormations.
           </ProjectCard>
-          <ProjectCard
-            title="myCountry App"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
+          <ProjectCard title="myCountry App" bg="linear-gradient(to down, #662D8C 0%, #ED1E79 100%)">
             A NextJS App built for checking relevant infomation about any country in the world. The app utilizes the
-            RestCountries API that serves the App with infomations. It can be used by anyone.
+            RestCountries API that serves the App with infomations. It can be used by anyone. (Yet to be to deployed)
           </ProjectCard>
-          <ProjectCard
-            title="Defax"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
+          <ProjectCard title="Defax" bg="linear-gradient(to down, #009245 0%, #FCEE21 100%)">
             A corporate sample website for Defax Consulting built on WordPress CMS. Elementor Page Builder was used to
             modify and style the website layout while using other relevant plugins also.
           </ProjectCard>
-          <ProjectCard
-            title="BitzPrice"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-          >
-            This App converts current bitoin rates to different currencies. Built with NextJS. The app is still pretty
-            much a work in progress and more currency options will be optimized into it.
+          <ProjectCard title="BitzPrice" bg="linear-gradient(to down, #D585FF 0%, #00FFEE 100%)">
+            This App converts current bitcoin rates to different currencies. Built with NextJS. The app is still pretty
+            much a work in progress and more currency options will be optimized into it. (Yet to be deployed)
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
+      <br /> <br /> <br />
       <About offset={3}>
         <Title>About me? I'm gratified!</Title>
         <AboutHero>
