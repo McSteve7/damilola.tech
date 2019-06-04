@@ -80,7 +80,7 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Weather App "
-            link="https://www.weather-apps.netlify.com/"
+            link="https://weather-apps.netlify.com/"
             bg="linear-gradient(to down, #D4145A 0%, #FBB03B 100%)"
           >
             This App is built on ReactJs. It provides users with basic weather information of a place. The
