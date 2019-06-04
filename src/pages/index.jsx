@@ -50,11 +50,11 @@ const Avatar = styled.img`
 `
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-1xl lg:text-2xl xl:text-4xl`};
+  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-2xl xl:text-4xl`};
 `
 
 const AboutDesc = styled.p`
-  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
+  ${tw`text-grey-light text-md md:text-xl lg:text-1xl font-sans pt-4 md:pt-12 text-justify`};
 `
 
 const ContactText = styled.p`
@@ -80,7 +80,7 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Weather App "
-            link="https:/weather-apps.netlify.com/"
+            link="https://www.weather-apps.netlify.com/"
             bg="linear-gradient(to down, #D4145A 0%, #FBB03B 100%)"
           >
             This App is built on ReactJs. It provides users with basic weather information of a place. The
