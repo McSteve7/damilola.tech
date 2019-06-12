@@ -86,9 +86,13 @@ const Index = () => (
             This App is built on ReactJs. It provides users with basic weather information of a place. The
             OpenWeatherApp API was used to serve the app with the inormations.
           </ProjectCard>
-          <ProjectCard title="myCountry App" bg="linear-gradient(to down, #662D8C 0%, #ED1E79 100%)">
+          <ProjectCard
+            title="myCountry App"
+            link="https://mycountry-eq4z06qbs.now.sh/"
+            bg="linear-gradient(to down, #662D8C 0%, #ED1E79 100%)"
+          >
             A NextJS App built for checking relevant infomation about any country in the world. The app utilizes the
-            RestCountries API that serves the App with infomations. It can be used by anyone. (Yet to be to deployed)
+            RestCountries API that serves the App with infomations. ZEIT/NOW was utilized in the deployment process. 
           </ProjectCard>
           <ProjectCard title="Defax" bg="linear-gradient(to down, #009245 0%, #FCEE21 100%)">
             A corporate sample website for Defax Consulting built on WordPress CMS. Elementor Page Builder was used to
