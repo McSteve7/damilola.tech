@@ -84,7 +84,7 @@ const Index = () => (
             bg="linear-gradient(to down, #D4145A 0%, #FBB03B 100%)"
           >
             This App is built on ReactJs. It provides users with basic weather information of a place. The
-            OpenWeatherApp API was used to serve the app with the inormations.
+            OpenWeatherApp API was used to serve the app with the informations.
           </ProjectCard>
           <ProjectCard
             title="myCountry App"
