@@ -114,9 +114,9 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I'm a not too terrible junior web developer with few months experience (non professional) most of these time
+          I'm a not-too-terrible junior web developer with few months experience (non professional) most of these time
           involved me playing with HTML, CSS, and a little JavaScript. I started learning about JavaScript frameworks
-          since it was quite a challenge for me to build stuffs with pure JavaScript. Shoutout to{' '}
+          since it was quite a challenge for me to build stuff with pure JavaScript. Shoutout to{' '}
           <a href="https://freecodecamp.com">FreeCodeCamp</a> for making sense out of it for me and pointing towards
           building real life apps with the technonology through their relevant coding challenge. I'm currently learning
           and playing around with ReactJS, NextJS, GatsbyJS and SASS just to name a few. When i'm not playing around
@@ -126,7 +126,7 @@ const Index = () => (
         <AboutDesc>
           Download or view my resume{' '}
           <button>
-            <a target="_blank" href="https://drive.google.com/open?id=1JdLP_G_eF7xtRNGGA8rQpGSxuF_jqDuE">
+            <a target="_blank" href="https://drive.google.com/open?id=1ES7AUhDC-2olrjwEmVW5YPZvb3COmZhv">
               Here
             </a>
           </button>
