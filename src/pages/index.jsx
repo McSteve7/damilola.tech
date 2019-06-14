@@ -126,7 +126,7 @@ const Index = () => (
         <AboutDesc>
           Download or view my resume{' '}
           <button>
-            <a target="_blank" href="https://drive.google.com/open?id=1ES7AUhDC-2olrjwEmVW5YPZvb3COmZhv">
+            <a target="_blank" href="https://drive.google.com/open?id=19lVpHrVq0-LfutsrE914kzywrFbdOYZq">
               Here
             </a>
           </button>
