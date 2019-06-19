@@ -132,12 +132,13 @@ const Index = () => (
           </button>
         </AboutDesc>
       </About>
-      <Contact offset={4}>
+      <Contact offset={4}> 
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
             Send me a <a href="mailto:stephenajiboye7@gmail.com">Mail</a> and let's discuss about that your upcoming
-            project that you would like me to work on.
+            project that you would like me to work on. You can also read my web development articles on my{' '}             <a target="_blank" href="https://damilola.hashnode.dev/">Blog</a>
+
           </ContactText>
         </Inner>
         <Footer>
