@@ -17,7 +17,7 @@ module.exports = {
   userTwitter: '@steve_dammy', // Twitter Username
   ogSiteName: 'Ajiboye Damilola Steve', // Facebook Site Name
   ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: 'UA-47519312-5',
+  googleAnalyticsID: 'UA-140962412-1',
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
