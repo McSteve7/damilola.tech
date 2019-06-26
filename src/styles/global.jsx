@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
   button{
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 5px;
   }
   button:hover{
