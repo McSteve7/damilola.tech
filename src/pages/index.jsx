@@ -88,7 +88,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="myCountry App"
-            link="https://mycountry.stephenajiboye.now.sh//"
+            link="https://mycountry.stephenajiboye.now.sh"
             bg="linear-gradient(to down, #662D8C 0%, #ED1E79 100%)"
           >
             A NextJS App built for checking relevant details about any country in the world. The app utilizes the
