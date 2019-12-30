@@ -109,24 +109,21 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Damilola Ajiboye" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I have a knack for evolving tech, business management and customer relationship
+            hence, my strong drive for product management. 
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I'm a not-too-terrible junior web developer with few months experience (non professional) most of these time
-          involved me playing with HTML, CSS, and a little JavaScript. I started learning about JavaScript frameworks
-          since it was quite a challenge for me to build stuff with pure JavaScript. Shoutout to{' '}
-          <a href="https://freecodecamp.com">FreeCodeCamp</a> for making sense out of it for me and pointing towards
-          building real life apps with the technonology through their relevant coding challenge. I'm currently learning
-          and playing around with ReactJS, NextJS, GatsbyJS and SASS just to name a few. When i'm not playing around
-          with code, you can find me volunteering for a project or doing fashion brand consultation or probably
-          listening to Hillsong (Yeah, I know they are awesome too).
+        However, I am a growth driven intermediate frontend developer capable of analyzing client’s
+        need with little or no supervision and deliver a remarkable solution.
+        Ability to adapt and learn fast any technology and process management system
+        utilized in any organization. 
+        Looking forward to working in a team of other amazing developer that are sold 
+        out to building user friendly solutions that addresses real life problems. 
         </AboutDesc>
         <AboutDesc>
-          Download or view my resume{' '}
           <button type="button">
-            <a target="_blank" href="https://drive.google.com/open?id=19lVpHrVq0-LfutsrE914kzywrFbdOYZq">Here
+            <a target="_blank" href="https://drive.google.com/open?id=1zT6Hi_YqfQF8RukKmF9r1ii6bALELUIm">My Resume
             </a>
           </button>
         </AboutDesc>
@@ -136,7 +133,8 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Send me a <a href="mailto:stephenajiboye7@gmail.com">Mail</a> and let's discuss about that your upcoming
-            project that you would like me to work on. You can also read my web development articles on my{' '}             <a target="_blank" href="https://damilola.hashnode.dev/">Blog</a>
+            project that you would like me to work on. You can also read my web development articles on my{' '}             
+            <a target="_blank" href="https://damilola.hashnode.dev/">Blog</a>
 
           </ContactText>
         </Inner>
