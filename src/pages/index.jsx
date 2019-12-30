@@ -73,7 +73,7 @@ const Index = () => (
         <BigTitle>
           Yo, <br /> I'm Damilola Ajiboye.
         </BigTitle>
-        <Subtitle>I'm a Front-end web developer.</Subtitle>
+        <Subtitle>I'm a Front-end developer & Aspiring Product Manager.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -105,12 +105,12 @@ const Index = () => (
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About me? I'm gratified!</Title>
+        <Title>About me</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Damilola Ajiboye" />
           <AboutSub>
             I have a knack for evolving tech, business management and customer relationship
-            hence, my strong drive for product management. 
+            hence, my strong passion for product management... 
           </AboutSub>
         </AboutHero>
         <AboutDesc>
