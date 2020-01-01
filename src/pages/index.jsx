@@ -17,9 +17,9 @@ import Hero from '../views/Hero'
 import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
+import Navbar from '../views/Navbar'
 
 import avatar from '../images/avatar.jpg'
-import aber from '../images/aber.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -65,10 +65,15 @@ const Footer = styled.footer`
   ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
 `
 
+const NavCenter = styled.div`
+
+
+`
 const Index = () => (
   <>
     <Layout />
     <Parallax pages={5}>
+    
       <Hero offset={0}>
         <BigTitle>
           Yo, <br /> I'm Damilola Ajiboye.
@@ -118,7 +123,7 @@ const Index = () => (
         need with little or no supervision and deliver a remarkable solution.
         Ability to adapt and learn fast any technology and process management system
         utilized in any organization. 
-        Looking forward to working in a team of other amazing developer that are sold 
+        Looking forward to working in a team of other amazing developers that are sold 
         out to building user friendly solutions that addresses real life problems. 
         </AboutDesc>
         <AboutDesc>
@@ -139,7 +144,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Damilola Ajiboye <br />
+          &copy; 2020 by Damilola Ajiboye <br />
           <a href="https://github.com/McSteve7">Github</a> <a href="https://twitter.com/steve_dammy">Twitter</a>{' '}
           <a href="https://linkedin.com/in/damilola-ajiboye">Linkedin</a>{' '}
           <a href="https://instagram.com/styleblogazine">Instagram</a>{' '}
