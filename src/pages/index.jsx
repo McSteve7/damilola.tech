@@ -20,6 +20,7 @@ import Contact from '../views/Contact'
 import Navbar from '../views/Navbar'
 
 import avatar from '../images/avatar.jpg'
+import avatar2 from '../images/avatar2.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -66,14 +67,13 @@ const Footer = styled.footer`
 `
 
 const NavCenter = styled.div`
-
+${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-md  `};
 
 `
 const Index = () => (
   <>
     <Layout />
     <Parallax pages={5}>
-    
       <Hero offset={0}>
         <BigTitle>
           Yo, <br /> I'm Damilola Ajiboye.
@@ -112,7 +112,7 @@ const Index = () => (
       <About offset={3}>
         <Title>About me</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="Damilola Ajiboye" />
+          <Avatar src={avatar2} alt="Damilola Ajiboye" />
           <AboutSub>
             I have a knack for evolving tech, business management and customer relationship
             hence, my strong passion for product management... 
