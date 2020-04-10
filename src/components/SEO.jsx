@@ -81,9 +81,9 @@ const Head = props => {
     <Helmet>
       <html lang={config.siteLanguage} />
       <title>{title}</title>
-      <link rel="apple-touch-icon" href="/favicons/avatar.jpg" />
-      <link rel="icon" type="image/jpg" sizes="32x32" href="/favicons/avatar.jpg" />
-      <link rel="icon" type="image/jpg" sizes="16x16" href="/favicons/avatar.jpg" />
+      <link rel="apple-touch-icon" href="/favicons/avatar2.jpg" />
+      <link rel="icon" type="image/jpg" sizes="32x32" href="/favicons/avatar2.jpg" />
+      <link rel="icon" type="image/jpg" sizes="16x16" href="/favicons/avatar2.jpg" />
       <meta name="Damilola Ajiboye" content="Damilola Ajiboye - Web Developer" />
       <meta name="msapplication-TileColor" content={config.backgroundColor} />
       <meta name="msapplication-config" content="browserconfig.xml" />

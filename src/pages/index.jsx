@@ -121,7 +121,7 @@ const Index = () => (
         <AboutDesc>
         However, I am a growth driven intermediate frontend developer capable of analyzing client’s
         need with little or no supervision and deliver a remarkable solution.
-        Ability to adapt and learn fast any technology and process management system
+        Ability to adapt and learn fast any technology and project management system
         utilized in any organization. 
         Looking forward to working in a team of other amazing developers that are sold 
         out to building user friendly solutions that addresses real life problems. 
@@ -137,9 +137,10 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Send me a <a href="mailto:stephenajiboye7@gmail.com">Mail</a> and let's discuss about that your upcoming
-            project that you would like me to work on. You can also read my web development articles on my{' '}             
-            <a target="_blank" href="https://damilola.hashnode.dev/">Blog</a>
+            Send me a <a href="mailto:stephenajiboye7@gmail.com">mail</a> and let's discuss your upcoming
+            project that you would like me to work on. You can als  o read my {' '}             
+            <a target="_blank" href="https://medium.com/@stephenajiboye7">medium articles</a> on product management and web development articles on my{' '}             
+            <a target="_blank" href="https://damilola.hashnode.dev/">blog</a>
 
           </ContactText>
         </Inner>
@@ -148,7 +149,7 @@ const Index = () => (
           <a href="https://github.com/McSteve7">Github</a> <a href="https://twitter.com/steve_dammy">Twitter</a>{' '}
           <a href="https://linkedin.com/in/damilola-ajiboye">Linkedin</a>{' '}
           <a href="https://instagram.com/styleblogazine">Instagram</a>{' '}
-          <a href="https://medium.com/damilola-ajiboye">Medium</a>
+          <a href="https://medium.com/@stephenajiboye7">Medium</a>
         </Footer>
       </Contact>
     </Parallax>

@@ -7,9 +7,9 @@ module.exports = {
   siteTitleAlt: 'Damilola Ajiboye - Front-end web developer', // Alternative Site title for SEO
   siteTitleShort: 'Damilola', // short_name for manifest
   siteHeadline: 'Online Portfolio of Damilola Ajiboye', // Headline for schema.org JSONLD
-  siteUrl: 'https://damilola.tech', // Domain of your site. No trailing slash!
+  siteUrl: 'https://damilolaaajiboye.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: 'favicons/avatar.jpg', // Used for SEO and manifest
+  siteLogo: 'favicons/avatar3.jpeg', // Used for SEO and manifest
   siteDescription: 'The online portfolio of Damilola Ajiboye, A web developer based in Lagos Nigeria.',
   author: 'Damilola Ajiboye', // Author for schema.org JSONLD
 
